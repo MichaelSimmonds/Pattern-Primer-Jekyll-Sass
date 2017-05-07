@@ -1,0 +1,22 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+// Graphical variables
+@import "config/variables";
+// @import "config/bootstrap_variables"; currently not working
+
+// External libraries
+@import "vendor/index";
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+// @import "bootstrap-datepicker3";
+
+// Your CSS
+// @import "global";
+@import "global/index";
+// @import "layout/index";
+// @import "components/index";
+// @import "pages/index";

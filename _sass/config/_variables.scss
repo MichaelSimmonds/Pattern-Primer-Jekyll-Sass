@@ -1,0 +1,51 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500|Poppins");
+$logo-font: "Poppins", "Helvetica", "sans-serif";
+$header-font: "Raleway", "Helvetica", "sans-serif";
+$base-font: "Open Sans", "Helvetica", "sans-serif";
+
+// Local fonts (uncomment following lines)
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+//Coolors Scheme
+
+$primary-color: rgba(22, 16, 50, 1);
+$secondary-color: rgba(48, 107, 52, 1);
+$off-white-color: rgba(244, 247, 190, 1);
+$dark-gray-color: rgba(224, 109, 6, 1);
+$light-gray-color: rgba(28, 82, 83, 1);
+
+
+// // Scheme
+// $brand-color: #D23333;
+//
+// $red: rgba(238, 95, 91, 0.43); //#EE5F5B;
+// $blue: #469AE0;
+// $yellow: #FDB631;
+// $orange: #E67E22;
+// $green: rgba(50, 183, 150, 0.43); //#32B796;
+// $gray: #000000;
+
+
+/* Main color theme */
+
+$background-blue: rgb(245,245,245); // rgb(237, 254, 255)
+$main-purple: #473B77; // rgb(71, 59, 119)
+$accent-orange: #EF7D2E; // rgb(239, 125, 46)
